@@ -1,0 +1,258 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #f1f1f1; 
+}
+
+
+
+
+/*           FONTS P H1 H2 H4 H6               */
+p {
+color: #0F0E0E;
+font-family: 'Karma', serif;
+}
+
+h1 {
+  color: #223124;
+  font-size: 5.3em;
+font-family: 'Eczar', serif;
+  letter-spacing: -1.5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+h2 {
+font-family: 'IM Fell English SC', serif;
+  font-size: 2em;
+  color: #524f46;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+
+h4 {
+  padding-top: 1%;
+  text-align: center;
+  font-size: 2.0em;
+  color: #223124;
+  padding-left: 10%;
+  padding-right: 10%;
+font-family: 'Eczar', serif;
+  font-weight: 200
+}
+
+
+h6 {
+  padding-top: 1%;
+  padding-bottom: 2%;
+
+  text-align: center;
+font-family: 'IM Fell English SC', serif;
+  font-size: 1.3em;
+color: #868a87;
+}
+
+
+
+
+/*           LINKS              */
+
+.links {
+font-family: 'IM Fell English SC', serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-size: 2em;
+  padding: 1em;
+}
+
+a {
+font-family: 'Karma', serif;
+  font-weight: bold;
+  color: #868a87;
+  text-decoration: none;
+  padding-bottom: 2%;
+  text-decoration: underline;
+}
+
+
+
+
+
+/*           HOME              */
+
+.introTitle {
+  background: url(assets/main.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.introImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-directions: row;
+  flex-wrap: wrap;
+  padding-top:1.5%;
+}
+
+
+
+#layoutText {
+  font-size: 1.4em;
+padding-right: 10%;
+padding-left: 10%;
+padding-top: 3%;
+}
+
+#layoutImage {
+padding-right: 10%;
+padding-left: 3%;
+padding-top: 1%;
+padding-bottom: 2%;
+width:400px;
+}
+
+.homeLayout{
+display: flex;
+flex-directions: row;
+/*align-items: stretch;*/
+justify-content: space-around;
+flex-flow: wrap;
+width:100%;
+}
+
+
+.item{
+  max-width:100%;
+  /*flex-basis: 200px;*/
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+
+
+
+
+/*           DONATE              */
+
+#donateImage {
+padding-left: 33%;
+padding-top: 1%;
+padding-bottom: 2%;
+
+}
+
+.donateSection {
+  background: url(assets/13.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.donateText {
+font-family: 'IM Fell English SC', serif;
+color: #223124;
+text-decoration: underline;
+font-size: 50px;
+display: flex;  
+justify-content: center;
+}
+
+
+
+
+
+/*           ABOUT              */
+
+#actionText {
+color: #0F0E0E;
+font-family: 'Karma', serif;
+font-size: 1.5em;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+margin-bottom: 2%;
+
+}
+.about {
+display: flex;  
+justify-content: space-around;
+}
+
+.aboutBio {
+padding-right: 5%;
+padding-left: 23%;
+padding-top: 2%;
+font-family: 'Karma', serif;
+color: #868a87;
+font-size: 2em;
+}
+
+.aboutLink {
+  text-decoration: underline;
+font-family: 'Karma', serif;
+color: #223124;
+
+}
+
+.aboutPic {
+padding-right: 23%;
+padding-left: 3%;
+padding-top: 1%;
+padding-bottom: 2%;
+
+}
+
+.aboutText {
+color: #0F0E0E;
+font-family: 'Karma', serif;
+font-size: 1.5em;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+margin-bottom: 2%;
+margin-top: 2%;
+  text-align: justify; 
+  text-align-last: center;
+}
+
+.actionText2 {
+color: #0F0E0E;
+font-family: 'Karma', serif;
+font-size: 1.5em;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+margin-bottom: 2%;
+}
+
+
+/*           NAVIGATION BAR              */
+
+ul {
+  list-style-type: none; 
+  background-color: black  ;
+  overflow:hidden;
+  padding: 2em;
+  text-align: center;
+  text: white;
+
+}
+
+
+li {
+  display: inline;
+
+}
+
+.links:hover {
+  color: #868a87;
+}
+
+
